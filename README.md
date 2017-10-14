@@ -3,7 +3,7 @@
 The model code for the chrome extension [(Sumz)](https://chrome.google.com/webstore/detail/sumz/odpjlfcmpnebjjjgdobgbjnbcfdlicgk) that implements a sequence to sequence model for summarizing Amazon reviews, using Tensorflow 1.1 and the <b>[Amazon Fine Foods reviews dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews).</b>
 
 ![](https://img.shields.io/badge/python-3-brightgreen.svg) ![](https://img.shields.io/badge/tensorflow-1.1.0-orange.svg)
-![Preview](sumz9.gif "asdf")
+![Preview](https://github.com/ashnkumar/sumz_seq2seq/blob/master/images/sumz9.gif)
 
 The `seq2seq_model_building.ipynb` notebook walks through building and training a [Sequence to sequence model](https://www.tensorflow.org/tutorials/seq2seq) with Tensorflow (version 1.1).
 
@@ -15,10 +15,10 @@ This builds on the [Text Summarization](https://github.com/Currie32/Text-Summari
 ## The Model
 
 <p align="center">
-<img src="nct-seq2seq.png"/>
+<img src="https://github.com/ashnkumar/sumz_seq2seq/blob/master/images/nct-seq2seq.png"/>
 </p>
 
-<center><i>seq2seq model. source: [WildML](http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/)</i></center>
+<i>seq2seq model. source: [WildML](http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/)</i>
 
 Sequence-to-sequence models use two different RNNs, connected through the output state of the initial RNN. This is also called the encoder-decoder model (similar to Autoencoders). These seq2seq models are extremely powerful and versatile; they've been shown to have incredible performance a range of tasks including:
 
